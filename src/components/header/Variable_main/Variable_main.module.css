@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_block{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: #112f40d9;
+    height: 40px;
+    width: 100%;
+}
+.list{
+    margin-left: 35px;
+}
+.list p a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+.active{
+    text-decoration: underline;
+    margin-left: 25px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
